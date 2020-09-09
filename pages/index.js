@@ -1,7 +1,9 @@
 
 import { Cookies } from 'react-cookie';
+import axios from 'axios';
 const cookies = new Cookies();
 import { serverUrl } from '../utils/auth';
+
 
 const Home = () => {
 
